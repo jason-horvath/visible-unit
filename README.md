@@ -39,11 +39,11 @@ class ExampleUnitTest
     }
 }
 ```
-    
+
 ##### More Info
 
 See source of:
-1.) `src/Reflections/BaseReflection.php`
-2.) `tests/TestCase/Reflections/BaseReflectionTest.php`
-3.) `tests/TestClass/MockAccessObject.php`
+- `src/Reflections/BaseReflection.php`
+- `tests/TestCase/Reflections/BaseReflectionTest.php`
+- `tests/TestClass/MockAccessObject.php`
 
