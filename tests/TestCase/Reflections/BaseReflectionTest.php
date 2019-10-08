@@ -16,14 +16,24 @@ use VisibleUnit\Test\TestClass\MockAccessClass;
 class BaseReflectionTest extends TestCase
 {
     /**
+     * @var \VisibleUnit\Test\TestClass\MockAccessClass
+     */
+    protected $mockAccessClass;
+
+    /**
+     * @var \VisibleUnit\Reflections\BaseReflection
+     */
+    protected $mockReflection;
+    
+    /**
      * Set Up
      * 
      * @return void
      */
     public function setUp()
     {
-        $this->mockAccessOject = new MockAccessClass();
-        $this->mockReflection = new BaseReflection($this->mockAccessOject);
+        $this->mockAccessClass = new MockAccessClass();
+        $this->mockReflection = new BaseReflection($this->mockAccessClass);
     }
 
     /**

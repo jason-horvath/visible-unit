@@ -55,7 +55,7 @@ class BaseReflection
     {
         $method = $this->reflection->getMethod($methodName);
         $method->setAccessible(true);
-        return $method->invoke($this->class, $params);
+        return $method->invoke($this->class, ...$params);
     }
 
     /**

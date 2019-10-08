@@ -59,7 +59,7 @@ class MockAccessClass
     private function setMockProp1(...$params)
     {
         $args = func_get_args($params);
-        $this->mockProp1 = count($args[0]) === 0 ? 'This was set in setMockProp1()' : implode(' ', $args[0]);
+        $this->mockProp1 = count($args) === 0 ? 'This was set in setMockProp1()' : implode(' ', $args);
     }
 
     /**
@@ -79,7 +79,7 @@ class MockAccessClass
             'setMockProp2() - 3'
         ];
 
-        $this->mockProp2 = count($args[0]) === 0 ? $mockProp2 : $args[0];
+        $this->mockProp2 = count($args) === 0 ? $mockProp2 : $args;
     }
 
     /**
