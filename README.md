@@ -38,6 +38,7 @@ class ExampleUnitTest
         $privateOrProtectedProp = $this->mockReflection->getPropValue('privateOrProtectedProp');
     }
 }
+```
     
 ##### More Info
 
