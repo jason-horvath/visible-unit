@@ -2,7 +2,7 @@
     "name": "kaingnx/visible-unit",
     "description": "Simplified unit testing on non-visible properties and methods.",
     "type": "phpunit",
-    "keywords": ["phpunit", "php"],
+    "keywords": ["phpunit", "php", "testing"],
     "require": {
         "phpunit/phpunit": "^5.7.14|^6.0",
         "php": ">=5.6.0"
