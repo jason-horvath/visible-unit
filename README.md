@@ -44,5 +44,5 @@ class ExampleUnitTest
 See source of:
 1.) `src/Reflections/BaseReflection.php`
 2.) `tests/TestCase/Reflections/BaseReflectionTest.php`
-3.) `tests/TestCase/TestClass/MockAccessObject.php`
+3.) `tests/TestClass/MockAccessObject.php`
 
