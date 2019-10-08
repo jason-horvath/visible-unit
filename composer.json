@@ -1,0 +1,31 @@
+{
+    "name": "kaingnx/visible-unit",
+    "description": "Simplified unit testing on non-visible properties and methods.",
+    "type": "phpunit",
+    "keywords": ["phpunit", "php"],
+    "require": {
+        "phpunit/phpunit": "^5.7.14|^6.0",
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Horvath",
+            "email": "jason.horvath@greaterdevelopment.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VisibleUnit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VisibleUnit\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
